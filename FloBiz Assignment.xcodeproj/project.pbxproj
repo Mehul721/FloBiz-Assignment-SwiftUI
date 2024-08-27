@@ -16,6 +16,8 @@
 		750B8A122C7CF7FD005B8304 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A112C7CF7FD005B8304 /* Home.swift */; };
 		750B8A182C7DB031005B8304 /* StoryProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A172C7DB031005B8304 /* StoryProgressView.swift */; };
 		750B8A1A2C7DB04E005B8304 /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A192C7DB04E005B8304 /* StoryController.swift */; };
+		750B8A362C7E1349005B8304 /* IntermediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A352C7E1349005B8304 /* IntermediateView.swift */; };
+		750B8A382C7E1369005B8304 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A372C7E1369005B8304 /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		750B8A112C7CF7FD005B8304 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		750B8A172C7DB031005B8304 /* StoryProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProgressView.swift; sourceTree = "<group>"; };
 		750B8A192C7DB04E005B8304 /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
+		750B8A352C7E1349005B8304 /* IntermediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateView.swift; sourceTree = "<group>"; };
+		750B8A372C7E1369005B8304 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				750B8A1C2C7DB202005B8304 /* View-Model */,
 				750B89FE2C7CECCC005B8304 /* Assets.xcassets */,
 				750B8A002C7CECCC005B8304 /* Preview Content */,
+				750B8A352C7E1349005B8304 /* IntermediateView.swift */,
+				750B8A372C7E1369005B8304 /* CarouselView.swift */,
 			);
 			path = "FloBiz Assignment";
 			sourceTree = "<group>";
@@ -180,9 +186,11 @@
 				750B8A182C7DB031005B8304 /* StoryProgressView.swift in Sources */,
 				750B89FD2C7CECCB005B8304 /* ContentView.swift in Sources */,
 				750B8A1A2C7DB04E005B8304 /* StoryController.swift in Sources */,
+				750B8A382C7E1369005B8304 /* CarouselView.swift in Sources */,
 				750B8A122C7CF7FD005B8304 /* Home.swift in Sources */,
 				750B8A0D2C7CF7A4005B8304 /* StoryTimer.swift in Sources */,
 				750B89FB2C7CECCB005B8304 /* FloBiz_AssignmentApp.swift in Sources */,
+				750B8A362C7E1349005B8304 /* IntermediateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,10 @@ import Combine
 
 class StoryController: ObservableObject {
     @Published var progress: Double = 0
-    private var storyTimer: StoryTimer
+    public let storyTimer: StoryTimer
 
     init(items: Int, interval: TimeInterval) {
         self.storyTimer = StoryTimer(items: items, interval: interval)
-        self.storyTimer.start()
         self.storyTimer.$progress
             .assign(to: &$progress)
     }

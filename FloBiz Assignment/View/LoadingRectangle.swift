@@ -24,6 +24,3 @@ struct LoadingRectangle: View {
         }
     }
 }
-#Preview {
-    LoadingRectangle(progress: 0.5)
-}

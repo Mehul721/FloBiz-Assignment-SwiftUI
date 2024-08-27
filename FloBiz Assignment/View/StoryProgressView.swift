@@ -26,11 +26,11 @@ struct StoryProgressView: View {
                 HStack(alignment: .center, spacing: 4) {
                     ForEach(imagesNames.indices, id: \.self) { index in
                         LoadingRectangle(progress: min(max(CGFloat(progress) - CGFloat(index), 0.0), 1.0))
-                            .frame(height: 2.5)
+                            .frame(height: 3.5)
                             .animation(.linear, value: progress)
                     }
                 }
-                .padding(.vertical, 2)
+                .padding(.vertical, 60)
             }
         }
     }
