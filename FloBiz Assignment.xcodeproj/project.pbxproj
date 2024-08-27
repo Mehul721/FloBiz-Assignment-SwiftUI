@@ -14,6 +14,8 @@
 		750B8A0D2C7CF7A4005B8304 /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A0C2C7CF7A4005B8304 /* StoryTimer.swift */; };
 		750B8A102C7CF7E6005B8304 /* LoadingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A0F2C7CF7E6005B8304 /* LoadingRectangle.swift */; };
 		750B8A122C7CF7FD005B8304 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A112C7CF7FD005B8304 /* Home.swift */; };
+		750B8A182C7DB031005B8304 /* StoryProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A172C7DB031005B8304 /* StoryProgressView.swift */; };
+		750B8A1A2C7DB04E005B8304 /* StoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A192C7DB04E005B8304 /* StoryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		750B8A0C2C7CF7A4005B8304 /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
 		750B8A0F2C7CF7E6005B8304 /* LoadingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRectangle.swift; sourceTree = "<group>"; };
 		750B8A112C7CF7FD005B8304 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		750B8A172C7DB031005B8304 /* StoryProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryProgressView.swift; sourceTree = "<group>"; };
+		750B8A192C7DB04E005B8304 /* StoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 		750B89F92C7CECCB005B8304 /* FloBiz Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				750B8A0E2C7CF7D4005B8304 /* View */,
-				750B89FA2C7CECCB005B8304 /* FloBiz_AssignmentApp.swift */,
 				750B89FC2C7CECCB005B8304 /* ContentView.swift */,
+				750B89FA2C7CECCB005B8304 /* FloBiz_AssignmentApp.swift */,
+				750B8A1B2C7DB1F5005B8304 /* Model */,
+				750B8A0E2C7CF7D4005B8304 /* View */,
+				750B8A1C2C7DB202005B8304 /* View-Model */,
 				750B89FE2C7CECCC005B8304 /* Assets.xcassets */,
 				750B8A002C7CECCC005B8304 /* Preview Content */,
 			);
@@ -77,11 +83,27 @@
 		750B8A0E2C7CF7D4005B8304 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				750B8A0C2C7CF7A4005B8304 /* StoryTimer.swift */,
 				750B8A0F2C7CF7E6005B8304 /* LoadingRectangle.swift */,
-				750B8A112C7CF7FD005B8304 /* Home.swift */,
+				750B8A172C7DB031005B8304 /* StoryProgressView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		750B8A1B2C7DB1F5005B8304 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				750B8A112C7CF7FD005B8304 /* Home.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		750B8A1C2C7DB202005B8304 /* View-Model */ = {
+			isa = PBXGroup;
+			children = (
+				750B8A0C2C7CF7A4005B8304 /* StoryTimer.swift */,
+				750B8A192C7DB04E005B8304 /* StoryController.swift */,
+			);
+			path = "View-Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				750B8A102C7CF7E6005B8304 /* LoadingRectangle.swift in Sources */,
+				750B8A182C7DB031005B8304 /* StoryProgressView.swift in Sources */,
 				750B89FD2C7CECCB005B8304 /* ContentView.swift in Sources */,
+				750B8A1A2C7DB04E005B8304 /* StoryController.swift in Sources */,
 				750B8A122C7CF7FD005B8304 /* Home.swift in Sources */,
 				750B8A0D2C7CF7A4005B8304 /* StoryTimer.swift in Sources */,
 				750B89FB2C7CECCB005B8304 /* FloBiz_AssignmentApp.swift in Sources */,
