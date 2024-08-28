@@ -20,23 +20,16 @@ struct IntermediateView: View {
                 }) {
                     Text("Open Carousel")
                         .font(.title)
-                        .padding()
-                        .background(
-                            LinearGradient(
-                                gradient: Gradient(colors: [Color.black, Color.gray]),
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
-                        )
                         .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-            }
-        }
+                        .padding()
+                        .background(Color.black)
+                        .cornerRadius(20)
+                }}}
         .fullScreenCover(isPresented: $showCarousel) {
             CarouselView(imagesNames: ["butcher", "hughei", "frenchie", "mm"], isPresented: $showCarousel)
-                .transition(.move(edge: .bottom)) // Bottom-up animation
-                .ignoresSafeArea() // Ensures the view covers the entire screen
+                .transition(.move(edge: .bottom))
+                .ignoresSafeArea()
         }
+        }
+        
     }
-}
